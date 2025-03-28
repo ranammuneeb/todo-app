@@ -49,6 +49,7 @@ class _HomepageState extends State<Homepage> {
                   onPressed:(context)=>deletebyid(item["_id"]),
                   backgroundColor: Color(0xFFFF0000),
                   foregroundColor: Colors.white,
+                  //flex:10,
                   icon: Icons.delete,
                   //borderRadius: BorderRadius.a(),
                   borderRadius: BorderRadius.circular(15),
